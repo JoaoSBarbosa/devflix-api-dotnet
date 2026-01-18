@@ -1,0 +1,115 @@
+############################
+# Build e artefatos .NET
+############################
+bin/
+obj/
+out/
+
+############################
+# Arquivos do Visual Studio
+############################
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.csproj.user
+*.sln.docstates
+
+############################
+# Visual Studio Code
+############################
+.vscode/
+
+############################
+# Rider / JetBrains
+############################
+.idea/
+*.sln.iml
+
+############################
+# Logs
+############################
+*.log
+logs/
+log/
+
+############################
+# Testes
+############################
+TestResults/
+coverage/
+coverage.xml
+*.coverage
+*.coveragexml
+
+############################
+# Docker
+############################
+**/docker-compose.override.yml
+**/*.dockerfile
+**/.docker/
+
+############################
+# Secrets e configurações sensíveis
+############################
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+!appsettings.json
+
+############################
+# Entity Framework
+############################
+**/Migrations/*.cs
+!**/Migrations/*Snapshot.cs
+!**/Migrations/*ContextModelSnapshot.cs
+
+############################
+# Node / Frontend (se existir)
+############################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Ferramentas de análise
+############################
+*.ncrunch*
+*.dotCover
+*.DotSettings.user
+
+############################
+# Arquivos temporários
+############################
+*.tmp
+*.temp
+*.bak
+*.swp
+*.orig
+
+############################
+# Publicação
+############################
+publish/
+artifacts/
+
+############################
+# Chaves e certificados
+############################
+*.pfx
+*.snk
+*.key
+*.crt
+
+############################
+# Azure / Cloud (se usar)
+############################
+.azure/
