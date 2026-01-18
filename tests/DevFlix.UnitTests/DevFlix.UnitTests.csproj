@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\DevFlix.Domain\DevFlix.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
