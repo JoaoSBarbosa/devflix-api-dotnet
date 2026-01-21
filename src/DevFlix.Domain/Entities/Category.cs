@@ -16,6 +16,7 @@ namespace DevFlix.Domain.Entities
             Id = Guid.NewGuid();
             Name = name;
             Description = description;
+            CreateDateTime = DateTime.UtcNow;
         }
     }
 }
